@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto'
+}
+
+header {
+    background-color: #F2F2F2;
+}
+
+button {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    border-style:hidden;
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+#learn {
+    color: #20a8b4;
+    margin: 4px;
+}
+
+#code {
+    color: #ff5c0f;
+    margin: 4px;
+}
+
+#learning {
+    color:#ff5c0f;
+    margin-left: 6px;
+}
+
+ul:hover {
+    color: #ff5c0f;
+}
+
+.image {
+    display: none;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+ul {
+    padding: 0px;
+    margin: 5px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    button {
+        text-align: center;
+        width: auto;
+    }
+
+    #middle {
+        margin-top: 200px;
+    }
+
+    .image {
+        display: block;
+        float: right;
+        margin-bottom: 30%;
+    }
+
+    #whole {
+        display: flex;
+        flex-direction: row;
+    }
+}
